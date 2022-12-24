@@ -7,10 +7,14 @@
 *{
     padding: 0;
     margin: 0;
+    overflow: hidden;
+    
 }
 .hero{
+    position: absolute;
+    top: 0%;
     width: 100%;
-    height: 40em;
+    height: 45em;
     background-color: var(--bgColor);
 }
 .nav{
@@ -89,7 +93,7 @@ img{
     letter-spacing: 8px;
     font-size: 7em;
     text-transform: uppercase;
-    text-shadow: 1px 1px 60px #33211B;
+    text-shadow: 7px 7px 30px var(--brown);
 }
 .heroText .lorem{
     font-family: poppins;
@@ -131,7 +135,7 @@ img{
     font-family: montserrat;
     font-weight: 400;
     cursor: pointer;
-    color: var(--bgTwo);
+    color: #fff;
     border-radius: 5px;
     font-weight: bold;
 }
@@ -142,3 +146,4 @@ img{
     border: none;
     color: var(--brown);
 }
+
